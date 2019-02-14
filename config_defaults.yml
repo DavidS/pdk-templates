@@ -46,6 +46,7 @@
     - '/.travis.yml'
     - '/.yardopts'
     - '/appveyor.yml'
+    - '/Dockerfile'
     - '/Gemfile'
     - '/Rakefile'
     - '/spec/'
