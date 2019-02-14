@@ -101,6 +101,9 @@ appveyor.yml:
   branches:
     - master
 Rakefile:
+  requires:
+    - require: 'voxpupuli/release/rake_tasks'
+      conditional: "Bundler.rubygems.find_name('voxpupuli-release').any?"
   default_disabled_lint_checks: []
   default_lint_checks:
     - 'relative'
