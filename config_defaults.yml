@@ -600,6 +600,6 @@ spec/default_facts.yml:
   is_pe: false
   macaddress: "AA:AA:AA:AA:AA:AA"
 spec/spec_helper.rb:
-  coverage_report: false
-  minimum_code_coverage_percentage: 0
+  coverage_report: true
+  minimum_code_coverage_percentage: ~
   strict_level: ":warning"
