@@ -100,6 +100,7 @@ appveyor.yml:
   branches:
     - master
 Rakefile:
+  changelog_tag_pattern: 'v%s' # default puppet-blacksmith pattern
   default_disabled_lint_checks: []
   linter_options:
     - 'relative'
